@@ -1,12 +1,9 @@
-import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "@components/Main";
 
-import { App } from './App';
-
-const root = createRoot(document.getElementById('app'));
-
-root.render(
-  <StrictMode>
-    <App name="StackBlitz" />
-  </StrictMode>
+ReactDOM.createRoot(document.getElementById("#app")!).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );

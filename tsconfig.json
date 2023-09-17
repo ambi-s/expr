@@ -5,6 +5,9 @@
     "moduleResolution": "node",
     "target": "ES2022",
     "strict": true,
-    "baseUrl": "./src"
+    "baseUrl": "./src",
+    "paths": {
+      "@components/*": ["components/*"]
+    }
   }
 }
