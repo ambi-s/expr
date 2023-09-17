@@ -177,8 +177,4 @@ declare module "jsep" {
 
     const version: string;
   }
-
-  function jsep(val: string | jsep.Expression): jsep.Expression;
-
-  export = jsep;
 }
