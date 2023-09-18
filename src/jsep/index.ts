@@ -1,4 +1,9 @@
-import jsep from "./jsep.js";
+/// <reference path="./jsep.d.ts" />
+/// <reference path="./object.d.ts" />
 
-export const jsep = jsep;
-export default jsep;
+import {} from "./jsep";
+import * as testplugin from "./object";
+
+export const jsep = jsepModule;
+let s: testplugin. = testplugin;
+export default jsepModule;

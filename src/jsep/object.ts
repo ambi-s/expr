@@ -1,3 +1,4 @@
+// @ts-nocheck
 export const OCURLY_CODE = 123; // {
 export const CCURLY_CODE = 125; // }
 export const OBJECT_EXP  = 'ObjectExpression';

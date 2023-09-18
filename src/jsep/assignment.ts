@@ -1,3 +1,4 @@
+// @ts-nocheck
 export const PLUS_CODE = 43; // +
 export const MINUS_CODE = 45; // -
 

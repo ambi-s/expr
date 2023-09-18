@@ -1,3 +1,4 @@
+// @ts-nocheck
 export const NUM_0_CODE = 48;
 export const UNDERSCORE = 95;
 

@@ -1,3 +1,6 @@
+// @ts-nocheck
+/// <reference path="./jsep.d.ts" />
+
 /**
  * @implements {IHooks}
  */

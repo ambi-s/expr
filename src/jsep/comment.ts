@@ -1,3 +1,4 @@
+// @ts-nocheck
 export const FSLSH_CODE = 47; // /
 export const ASTSK_CODE = 42; // *
 
